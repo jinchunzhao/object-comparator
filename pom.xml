@@ -7,6 +7,7 @@
   <groupId>com.jy.comparator</groupId>
   <artifactId>object-comparator</artifactId>
   <version>1.0.0</version>
+  <packaging>jar</packaging>
 
   <name>object-comparator</name>
   <!-- FIXME change it to the project's website -->
