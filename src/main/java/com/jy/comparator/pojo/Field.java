@@ -1,39 +1,48 @@
 package com.jy.comparator.pojo;
 
-
 /**
- * 不同属性
+ * Attribute object
  *
  * @author JinChunZhao
  * @version 1.0
  * @date 2020-05-16 11:04
  */
 public class Field {
+
     /**
-     * 属性名称
+     * The attribute name
      */
     private String fieldName;
+
     /**
-     * 属性类型
+     * Properties of generic
      */
-    private Class<?> fieldType;
+    private Class<?> fieldClazz;
+
     /**
-     * 第一个对象的属性值
+     * The property value of the first object
      */
     private Object firstVal;
+
     /**
-     * 第二个对象的属性值
+     * The property value of the second object
      */
     private Object secondVal;
+
+    /**
+     * object of generic
+     */
+    private Class<?> objectClazz;
 
     public Field() {
     }
 
-    public Field(String fieldName, Class<?> fieldType, Object firstVal, Object secondVal) {
+    public Field(String fieldName, Class<?> fieldClazz, Object firstVal, Object secondVal, Class<?> objectClazz) {
         this.fieldName = fieldName;
-        this.fieldType = fieldType;
+        this.fieldClazz = fieldClazz;
         this.firstVal = firstVal;
         this.secondVal = secondVal;
+        this.objectClazz = objectClazz;
     }
 
     public String getFieldName() {
@@ -44,12 +53,12 @@ public class Field {
         this.fieldName = fieldName;
     }
 
-    public Class<?> getFieldType() {
-        return fieldType;
+    public Class<?> getFieldClazz() {
+        return fieldClazz;
     }
 
-    public void setFieldType(Class<?> fieldType) {
-        this.fieldType = fieldType;
+    public void setFieldClazz(Class<?> fieldClazz) {
+        this.fieldClazz = fieldClazz;
     }
 
     public Object getFirstVal() {
@@ -66,5 +75,18 @@ public class Field {
 
     public void setSecondVal(Object secondVal) {
         this.secondVal = secondVal;
+    }
+
+    public Class<?> getObjectClazz() {
+        return objectClazz;
+    }
+
+    public void setObjectClazz(Class<?> objectClazz) {
+        this.objectClazz = objectClazz;
+    }
+
+    @Override public String toString() {
+        return "Field{" + "fieldName='" + fieldName + '\'' + ", fieldClazz=" + fieldClazz + ", firstVal=" + firstVal
+            + ", secondVal=" + secondVal + ", objectClazz=" + objectClazz + '}';
     }
 }
