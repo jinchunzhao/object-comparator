@@ -1,4 +1,4 @@
-package com.jy.comparator.factory.base;
+package com.github.jinchunzhao.comparator.factory.base;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;

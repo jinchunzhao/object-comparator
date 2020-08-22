@@ -1,4 +1,4 @@
-package com.jy.comparator.pojo;
+package com.github.jinchunzhao.comparator.pojo;
 
 /**
  * Attribute object
