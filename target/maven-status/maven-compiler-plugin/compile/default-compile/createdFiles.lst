@@ -1,0 +1,7 @@
+io\github\jinchunzhao\comparator\factory\AbstractDiffFieldFactory.class
+io\github\jinchunzhao\comparator\factory\base\CompareFactory.class
+io\github\jinchunzhao\comparator\factory\base\AbstractReadMethodBaseFactory.class
+io\github\jinchunzhao\comparator\ObjectComparator.class
+io\github\jinchunzhao\comparator\pojo\Field.class
+io\github\jinchunzhao\comparator\factory\AbstractEqualFactory.class
+io\github\jinchunzhao\comparator\factory\base\AbstractCompareBaseFactory.class
