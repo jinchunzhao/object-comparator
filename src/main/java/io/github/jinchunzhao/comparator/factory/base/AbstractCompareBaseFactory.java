@@ -191,17 +191,14 @@ public abstract class AbstractCompareBaseFactory extends AbstractReadMethodBaseF
         if (a2.length != length) {
             return false;
         }
-        //判断集合中是否完全相同，集合存在乱序的情况
         int count = 0;
         for (int index = 0; index < length; index++) {
             Object e1 = a1[index];
-            //            for (int i = 0; i < length; i++) {
             Object e2 = a2[index];
             List<Field> diff = getNotSameFields(e1, e2);
             if (diff == null || diff.isEmpty()) {
                 count++;
             }
-            //            }
         }
         if (count != length) {
             return false;
@@ -282,17 +279,14 @@ public abstract class AbstractCompareBaseFactory extends AbstractReadMethodBaseF
         if (secondObjs.length != length) {
             return false;
         }
-        //判断集合中是否完全相同，集合存在乱序的情况
         int count = 0;
         for (int index = 0; index < length; index++) {
             Object obj1 = firstObjs[index];
-            //            for (int i = 0; i < length; i++) {
             Object obj2 = secondObjs[index];
             List<Field> diff = getNotSameFields(obj1, obj2);
             if (diff == null || diff.isEmpty()) {
                 count++;
             }
-            //            }
         }
         if (count != length) {
             return false;
