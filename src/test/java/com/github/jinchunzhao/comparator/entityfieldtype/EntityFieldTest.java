@@ -2,8 +2,8 @@ package com.github.jinchunzhao.comparator.entityfieldtype;
 
 import com.github.jinchunzhao.comparator.pojo.basicdatafieldtype.Person;
 import com.github.jinchunzhao.comparator.pojo.entityfieldtype.Admin;
-import com.github.jinchunzhao.comparator.ObjectComparator;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.ObjectComparator;
+import io.github.jinchunzhao.comparator.pojo.Field;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

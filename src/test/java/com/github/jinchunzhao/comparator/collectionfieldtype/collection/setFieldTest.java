@@ -2,8 +2,8 @@ package com.github.jinchunzhao.comparator.collectionfieldtype.collection;
 
 import com.github.jinchunzhao.comparator.pojo.collectionfieldtype.Category1;
 import com.github.jinchunzhao.comparator.pojo.collectionfieldtype.Goods;
-import com.github.jinchunzhao.comparator.ObjectComparator;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.ObjectComparator;
+import io.github.jinchunzhao.comparator.pojo.Field;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

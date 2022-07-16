@@ -1,7 +1,7 @@
-package com.github.jinchunzhao.comparator;
+package io.github.jinchunzhao.comparator;
 
-import com.github.jinchunzhao.comparator.factory.AbstractEqualFactory;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.factory.AbstractEqualFactory;
+import io.github.jinchunzhao.comparator.pojo.Field;
 
 import java.beans.IntrospectionException;
 import java.util.List;

@@ -2,8 +2,8 @@ package com.github.jinchunzhao.comparator.mapfieldtype;
 
 import com.github.jinchunzhao.comparator.pojo.mapfieldtype.Student;
 import com.github.jinchunzhao.comparator.pojo.mapfieldtype.Teacher;
-import com.github.jinchunzhao.comparator.ObjectComparator;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.ObjectComparator;
+import io.github.jinchunzhao.comparator.pojo.Field;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,7 +1,7 @@
 package com.github.jinchunzhao.comparator.basicdatafieldtype;
 
-import com.github.jinchunzhao.comparator.ObjectComparator;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.ObjectComparator;
+import io.github.jinchunzhao.comparator.pojo.Field;
 import com.github.jinchunzhao.comparator.pojo.basicdatafieldtype.User;
 import org.junit.After;
 import org.junit.Assert;

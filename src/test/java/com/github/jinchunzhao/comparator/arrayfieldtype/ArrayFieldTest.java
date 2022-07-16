@@ -1,7 +1,7 @@
 package com.github.jinchunzhao.comparator.arrayfieldtype;
 
-import com.github.jinchunzhao.comparator.ObjectComparator;
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.ObjectComparator;
+import io.github.jinchunzhao.comparator.pojo.Field;
 import com.github.jinchunzhao.comparator.pojo.arrayfieldType.Teacher1;
 import com.github.jinchunzhao.comparator.pojo.mapfieldtype.Student;
 import org.junit.After;

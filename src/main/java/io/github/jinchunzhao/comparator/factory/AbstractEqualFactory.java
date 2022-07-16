@@ -1,6 +1,6 @@
-package com.github.jinchunzhao.comparator.factory;
+package io.github.jinchunzhao.comparator.factory;
 
-import com.github.jinchunzhao.comparator.pojo.Field;
+import io.github.jinchunzhao.comparator.pojo.Field;
 
 import java.beans.IntrospectionException;
 import java.util.List;
